@@ -1,0 +1,64 @@
+.moduleHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .moduleHeader h3 {
+    margin: 0;
+  }
+  
+  .moduleHeader button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .moduleHeader button:hover {
+    background-color: #c82333;
+  }
+  
+  .resource {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .resourceContent {
+    flex-grow: 1;
+  }
+  
+  .resource button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resource button:hover {
+    background-color: #0056b3;
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #0056b3;
+  }
+  

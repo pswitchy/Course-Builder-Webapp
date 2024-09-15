@@ -1,0 +1,13 @@
+.courseBuilder {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+  }
+  
+  .courseBuilder h2 {
+    text-align: center;
+  }
+  

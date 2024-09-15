@@ -1,0 +1,45 @@
+.addResourceForm {
+  display: flex;
+  align-items: center;
+}
+
+.addResourceForm input[type="text"],
+.addResourceForm input[type="url"] {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.addResourceForm button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.addResourceForm button:hover {
+  background-color: #218838;
+}
+
+.dropzone {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.dropzone p {
+  margin: 0;
+}
+
+.dropzone:hover {
+  border-color: #0056b3;
+}
